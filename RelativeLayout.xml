@@ -1,0 +1,13 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_alignParentTop="true"
+        android:text="Título" />
+
+    <Button
+        android:layout_below="@id/titulo"
+        android:text="Botão abaixo do título" />
+</RelativeLayout>
